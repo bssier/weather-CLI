@@ -1,0 +1,29 @@
+{
+  "name": "my-weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for find weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "",
+    "start": "node weather.js",
+    "test": "testing"
+  },
+  "keywords": [
+    "CLI",
+    "Weather",
+    "tomorrow Weather"
+  ],
+  "author": "I",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bssier/wheather-CLI.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5"
+  }
+}
