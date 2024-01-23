@@ -1,7 +1,20 @@
-#!/user/bin/env node
-import {getArgs} from"/helpers/args.js"
+#!/usr/bin/env node
+import {getArgs} from './helpers/args.js';
 const initCLI = ()=>{
-  console.log();
+  const  args= getArgs(process.argv);
+  console.log(args);
+  if(args.h){
+
+  }
+  if(args.s){
+
+  }
+  if(args.t){
+
+  }
+
 }
 
-initCLI()
+initCLI();
+
+
