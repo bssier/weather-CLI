@@ -20,7 +20,7 @@
   "author": "I",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bssier/wheather-CLI.git"
+    "url": "https://github.com/bssier/weather-CLI.git"
   },
   "license": "ISC",
   "dependencies": {
